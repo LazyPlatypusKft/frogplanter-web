@@ -1,0 +1,115 @@
+* { box-sizing: border-box; }
+
+:root {
+  font-family: Inter, ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #20301e;
+  background: #eef7e7;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top, rgba(255,255,255,.95), rgba(238,247,231,.85) 45%),
+    #eef7e7;
+}
+
+.card {
+  width: min(100%, 520px);
+  padding: 36px 28px;
+  border-radius: 28px;
+  background: rgba(255,255,255,.94);
+  box-shadow: 0 18px 60px rgba(46, 77, 39, .14);
+  text-align: center;
+}
+
+.frog { font-size: 72px; line-height: 1; }
+
+.eyebrow {
+  margin: 18px 0 6px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(32px, 8vw, 48px);
+  line-height: 1.02;
+}
+
+.lead {
+  margin: 18px auto 0;
+  max-width: 420px;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.invite-box {
+  margin: 24px auto 0;
+  padding: 16px 18px;
+  max-width: 360px;
+  border: 1px dashed #9eb897;
+  border-radius: 16px;
+  background: #f7fbf4;
+}
+
+.invite-box span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  opacity: .7;
+}
+
+.invite-box strong {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 19px;
+  overflow-wrap: anywhere;
+}
+
+.status {
+  margin: 22px auto 0;
+  max-width: 430px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.button {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 14px;
+  border: 0;
+  font: inherit;
+  font-weight: 750;
+  display: inline-grid;
+  place-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #294e27;
+  color: white;
+}
+
+.secondary {
+  background: #e6f0df;
+  color: #20301e;
+}
+
+.small {
+  margin: 22px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: .62;
+}
