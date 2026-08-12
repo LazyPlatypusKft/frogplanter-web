@@ -1,13 +1,16 @@
 [
   {
     "relation": [
-      "delegate_permission/common.handle_all_urls"
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
     ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.lazyplatypus.frogplanter.com",
       "sha256_cert_fingerprints": [
-        "E8:6C:83:68:BE:B4:35:4F:9B:03:20:22:3F:B0:2A:D5:36:1C:23:E6:A6:62:76:45:E3:0B:7F:E9:20:EB:72:D7"
+        "E8:6C:83:68:BE:B4:35:4F:9B:03:20:22:3F:B0:2A:D5:36:1C:23:E6:A6:62:76:45:E3:0B:7F:E9:20:EB:72:D7",
+        "4A:CE:8F:2F:2C:AB:D1:46:97:D3:6F:86:26:E8:21:C7:32:7A:C5:D1:45:29:DF:FB:4B:90:C8:C7:A4:29:95:3C",
+        "AB:CF:95:96:DF:40:BA:C5:C9:F9:4C:73:BC:2B:31:CC:3B:13:A6:7B:6C:D1:B8:B6:E2:0D:45:5A:2C:90:C2:17"
       ]
     }
   }
