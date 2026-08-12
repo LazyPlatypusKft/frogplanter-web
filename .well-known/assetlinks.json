@@ -5,9 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "REPLACE_WITH_ANDROID_APPLICATION_ID",
+      "package_name": "com.lazyplatypus.frogplanter.com",
       "sha256_cert_fingerprints": [
-        "REPLACE_WITH_ANDROID_SIGNING_CERT_SHA256"
+        "E8:6C:83:68:BE:B4:35:4F:9B:03:20:22:3F:B0:2A:D5:36:1C:23:E6:A6:62:76:45:E3:0B:7F:E9:20:EB:72:D7"
       ]
     }
   }
